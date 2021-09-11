@@ -27,6 +27,7 @@
   </head>
   <body>
     <div class="container">
+      <!-- Main Page -->
       <!-- mx-auto : 좌우에 여백을 주고 중앙 배치 -->
       <!-- mt-5 : marginTop 5라는 의미 -->
       <!-- py-5 : 위아래에 여백을 5정도 줌 -->
@@ -49,15 +50,23 @@
         </button>
       </section>
 
+      <!-- QnA Page -->
       <section id="qna">
-        <p>test!</p>
+        <div class="status mx-auto mt-5">
+          <div class="statusBar"></div>
+        </div>
+        <div class="qBox my-5 py-3 mx-auto"></div>
+        <div class="answerBox"></div>
       </section>
 
+      <!-- Result Page -->
       <section id="result">
         <p>test!</p>
       </section>
       <!-- js는 body 태그 끝나는 부분에 선언 -->
       <!-- JS 파일 길이가 긴 경우 내용이 긴 경우 사용자가 로딩 화면 볼 위험이 있음 -->
+
+      <script src="./js/data.js" charset="utf-8"></script>
       <script src="./js/start.js" charset="utf-8"></script>
     </div>
   </body>
