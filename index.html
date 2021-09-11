@@ -31,7 +31,7 @@
       <!-- mx-auto : 좌우에 여백을 주고 중앙 배치 -->
       <!-- mt-5 : marginTop 5라는 의미 -->
       <!-- py-5 : 위아래에 여백을 5정도 줌 -->
-      <section id="main" class="mx-auto mt-5 py-5 px-3">
+      <section id="main" class="mx-auto my-5 py-5 px-3">
         <h1>십이간지로 알아보는 연애유형</h1>
         <div class="col-lg-6 col-md-8 col-sm-10 mx-auto">
           <!-- img-fluid : 이미지가 상위 size를 따라감 -->
@@ -60,8 +60,16 @@
       </section>
 
       <!-- Result Page -->
-      <section id="result">
-        <p>test!</p>
+      <section id="result" class="mx-auto my-5 py-5 px-3">
+        <h1>당신의 결과는?</h1>
+        <div class="resultName"></div>
+        <div class="resultDesc"></div>
+        <div
+          id="resultImg"
+          class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto my-3"
+        ></div>
+
+        <button type="button" class="kakao mt-3 py-2 px-3">공유하기</button>
       </section>
       <!-- js는 body 태그 끝나는 부분에 선언 -->
       <!-- JS 파일 길이가 긴 경우 내용이 긴 경우 사용자가 로딩 화면 볼 위험이 있음 -->

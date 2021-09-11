@@ -1,3 +1,33 @@
 #result {
   display: none;
+  /* 배경색 */
+  background-color: whitesmoke;
+  /* 너비 */
+  width: 80%;
+  /* 글자 정렬 중앙*/
+  text-align: center;
+  /* 모서리 둥글게*/
+  border-radius: 20px;
+}
+
+.resultDesc {
+  font-size: 20px;
+}
+
+.resultName {
+  font-size: 24px;
+}
+
+.kakao {
+  color: white;
+  background-color: #fee500;
+  font-size: 22px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.kakao:hover,
+.kakao:focus {
+  background-color: whitesmoke;
+  color: #fee500;
 }

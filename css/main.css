@@ -1,11 +1,11 @@
 #main {
-  /* */
+  /* 배경색 */
   background-color: whitesmoke;
-  /* */
+  /* 너비 */
   width: 80%;
-  /* */
+  /* 글자 정렬 중앙*/
   text-align: center;
-  /* */
+  /* 모서리 둥글게*/
   border-radius: 20px;
 }
 
