@@ -1,7 +1,7 @@
 #result {
   display: none;
   /* 배경색 */
-  background-color: whitesmoke;
+  background-color: white;
   /* 너비 */
   width: 80%;
   /* 글자 정렬 중앙*/
@@ -30,4 +30,25 @@
 .kakao:focus {
   background-color: whitesmoke;
   color: #fee500;
+}
+
+#shareResult {
+  background-color: white;
+  width: 80%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.gohome {
+  color: white;
+  background-color: paleturquoise;
+  font-size: 22px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.gohome:hover,
+.gohome:focus {
+  background-color: whitesmoke;
+  color: paleturquoise;
 }
